@@ -1,0 +1,391 @@
+@font-face {
+    font-family: AA;
+    src: url(/FONT/KalampliThin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: AA;
+}
+body{
+    background-color: aquamarine;
+}
+@keyframes rgb-border {
+    0% {
+        border-color: red;
+    }
+    33% {
+        border-color: green;
+    }
+    66% {
+        border-color: blue;
+    }
+    100% {
+        border-color: red;
+    }
+}
+nav{
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 14, 2);
+    color: white;
+    font-size: 20px;
+
+}
+nav.navbar-left{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}  
+nav.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav.navbar-right p {
+    margin-right: 30px;
+}
+.navbar-text{
+    font-size: 35px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 30px 0 30px 0 ;
+}
+.text-header{
+    border: 5px black solid;
+    width: auto;
+    padding: 10px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+div{
+    display: block;
+}
+div.container{
+    width: 600px;
+    position: absolute;
+    margin-left: 500px;
+    height: 999px;
+}
+
+div.message{
+    text-align: center;
+    font-size: 30px;
+}
+img.imgui{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 20px;
+}
+.imgbox {
+    height: 220px;
+    width: 220px;
+    border-radius: 15px; 
+    display: block;
+
+}
+.box1{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 60px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out; 
+}
+.box1-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box1-message {
+    opacity: 1; 
+}
+.box2{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 60px;
+    left: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box2-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box2-message {
+    opacity: 1; 
+}
+.box3{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 60px;
+    left: 600px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box3-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box3-message {
+    opacity: 1; 
+}
+.box4{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 360px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box4-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box4-message {
+    opacity: 1; 
+}
+.box5{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 360px;
+    left: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box5-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box5-message {
+    opacity: 1; 
+}
+.box6{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 360px;
+    left: 600px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box6-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box6-message {
+    opacity: 1; 
+}
+.box7{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 660px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box7-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box7-message {
+    opacity: 1; 
+}
+.box8{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 660px;
+    left: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box8-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box8-message {
+    opacity: 1; 
+}
+.box9{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 660px;
+    left: 600px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box9-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 15px; 
+}
+.box:hover .box9-message {
+    opacity: 1; 
+}
+div.content{
+    border: 3px solid;
+    animation: rgb-border 1s infinite;
+    width: 900px;
+    height: 360px;
+    margin: 30px 0 0 480px;
+    border-radius: 20px;
+    position: absolute; 
+    top: 600px; 
+    left: 450px; 
+    transform: translate(-50%, -50%); 
+    background-color: rgb(229, 255, 0);
+}
+div.head-title{
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 40px;
+}
+div.detail{
+    font-size: 30px;
+    margin-left: 45px;
+    width: 500px;
+}
+img.picdetail{
+    width: 250px;
+    height: 250px;
+    left: 850px;
+    position: absolute;
+    transform: translate(-95%, -95%);
+    border-radius: 20px;
+}
+.nextbackhome{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 110px;
+    padding: 15px 0 0 15px ;
+}
