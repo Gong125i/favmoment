@@ -352,7 +352,7 @@ img.imgui{
     opacity: 1; 
 }
 div.content{
-    border: 3px solid;
+    border: 5px solid;
     animation: rgb-border 1s infinite;
     width: 900px;
     height: 360px;
