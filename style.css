@@ -1,6 +1,6 @@
 @font-face {
     font-family: AA;
-    src: url(./FONT/KalampliThin.ttf);
+    src: url(/FONT/KalampliThin.ttf);
 }
 *{
     margin: 0;
